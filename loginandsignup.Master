@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="loginandsignup.Master.cs" Inherits="Wpltheoryfinalproject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+      <style type="text/css">
+          #dvtop
+          {
+              width:100%;
+              height: 120px;
+              background-color:khaki;
+             text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: xx-large;
+          }
+
+          #dvleft
+          {
+              width:33%;
+              height: 500px;
+              background-color: white;
+              float : left;
+          }
+
+          #dvmain
+          {
+              width:33%;
+              height: 500px;
+              float : left;
+              background-color: white;
+          }
+
+          #dvright
+          {
+              width:33%;
+              height: 500px;
+              background-color: white;
+              float : left;
+
+
+          }
+
+          #dvbottom{
+            width: 100%;
+            height:50px;
+            float:left;
+            background-color:khaki;
+             text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: larger;
+        }
+    
+    
+
+          .auto-style2 {
+              width: 209px;
+              height: 305px;
+              margin-left: 5px;
+              margin-top: 36px;
+          }
+    
+ 
+          .auto-style3 {
+              width: 89px;
+              height: 65px;
+          }
+    
+ 
+          </style>
+</head>
+  
+<body>
+    
+    <form id="form1" runat="server">
+        <div id="dvtop">
+            <br />
+            <img alt="logo" class="auto-style3" src="logo.jpg" />&nbsp;
+            Python Programming
+            </div>
+         <div id="dvleft">
+            
+        </div>
+       
+        
+        <div id="dvmain">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+       
+        <div id="dvright">
+            <img src="logo3.png" class="auto-style2" />
+        </div>
+        <div id="dvbottom" style="border-width: thin; border-style: inset">
+            
+            Group Memebers:&nbsp; Fatima&nbsp;&nbsp; |&nbsp; Sawera |&nbsp; Salman | Ummat-ul-Karaim></div>
+
+      
+    </form>
+</body>
+</html>
